@@ -1,0 +1,569 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding:1em;
+}
+#intro{
+    background-color:#D6CFCB;
+    height:95.5vh;
+}
+.col{
+    display: inline-block;
+    width: 40%;
+}
+#intro .col.in-right{
+    width: 45%;
+    float: right;
+    height: 100vh;
+    background: url('../imgs/me-background.jpg');
+    background-size: 150%;
+    background-position: center;
+    margin:-1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#intro .col.in-left{
+    width: 54%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height:1;
+    padding:0;
+    margin:0;
+}
+#intro h1{
+    font-family: 'Stick No Bills';
+    font-size: 5.5em;
+    margin-top: 2em;
+}
+#intro h3{
+    font-family: 'Stick No Bills';
+    font-size: 2.5em;
+    font-weight: 400;
+    color:#A6808C;
+}
+p{
+    font-family:'Roboto Condensed';
+    font-weight: 200;
+    line-height: 1.4;
+    font-weight: lighter;
+}
+.container {
+    width:80%;
+    margin:auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#intro p{
+    font-size: 2.3em;
+    text-align: right;
+    opacity:0.5;
+}
+h2{
+    font-family:'Stick No Bills';
+    font-size: 2.5em;
+}
+h3{
+    font-family: 'Stick No Bills';
+    font-size: 1.6em;
+    font-weight:lighter;
+}
+h5{
+    font-family: 'Stick No Bills';
+    font-size: 1.5em;
+    color:#565264;
+    margin-top: 1em;
+}
+
+h6{
+    font-family: 'Stick No Bills';
+    font-size: 1.2em;
+    margin-top: 0.3em;
+    font-weight: lighter;
+    color:#565264;
+}
+.year{
+    margin: 0.2em 0 0 0;
+    line-height: 1;
+    padding: 0;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:#706677;
+}
+#intro h4{
+    font-family: 'Stick No Bills';
+    font-size: 1.5em;
+    font-weight:100;
+    color:#A6808C;
+}
+#intro ul{
+    list-style-type: none;
+    text-align: right;
+}
+#intro ul li{
+    display: inline-block;
+    background-color: #CCB7AE;
+    
+    border-radius: 100px;
+    border: 2px rgba(255, 255, 255, 0.16) solid;
+}
+#intro ul li a{
+    color:#A6808C;
+    display:block;
+    padding: 15px;
+}
+
+#diplomes .col.in-left{
+    width: 70%;
+    vertical-align:middle;
+}
+#diplomes .col.in-right{
+    position: relative;
+    width: 29%;
+    vertical-align:middle;
+    text-align: center;
+}
+#diplomes img{
+    display:block;
+    width: 100%;
+}
+#diplomes .links{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    list-style: none;
+    opacity: 0.65;
+}
+#diplomes .links li{
+    display: inline-block;
+    border-radius: 5px;
+    background-color:#ded0ca;
+    
+    border:2px rgba(255, 255, 255, 0.16) solid;
+}
+
+
+#diplomes .links li a{
+    display: inline-block;
+    padding: 6px;
+    color:#A6808C;
+    font-size: 0.8em;
+    
+}
+
+#diplomes .parcours{
+    margin-top: 1em;
+}
+.knowledge{
+    list-style: none;
+    margin-left: 0;
+    padding-left:0;
+}
+.knowledge li{
+    display:inline-block;
+    padding: 5px;
+    background-color:#A6808C;
+    color: white;
+    font-size: 0.8em;
+    border-radius:5px;
+    font-family: 'Roboto Condensed';
+}
+
+.knowledge li:nth-child(odd){
+    background-color:#706677;
+}
+
+#langues{
+    background-color: #565264;
+}
+#langues .col{
+    width:24.5%;
+    margin-top: 1em;
+    text-align: center;
+}
+#langues img{
+    padding;10px;
+}
+
+#langues .my-img{
+    width:50%;
+    margin: auto;
+    padding: 40px 25px;
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#langues .my-img img{
+    width:70%;
+}
+
+#hardskills{
+    background-color:#d6cfcb;
+}
+
+#hardskills {
+}
+#hardskills .col{
+    width:24.5%;
+    margin-top: 1em;
+    text-align: center;
+    vertical-align:top;
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 75%;
+    margin:auto;
+    margin-top:.5em;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
+  #langues h2, #langues h3, #langues h5{
+      color: #CCB7AE;
+  }
+  
+  #langues h5{
+      font-weight: lighter;
+      margin-bottom: 0.4em;
+  }
+
+  .fa-headphones-alt, .fa-teeth-open, .fa-feather {
+    color: white;
+    font-weight: 900;
+    background: #39313e;
+    padding: 7px;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+
+
+/*Progress Bars*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+body {
+  background: #ecf0f1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #95a5a6;
+}
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 300;
+  color: #1e9ef6;
+}
+
+.bars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bars > div {
+  margin: 10px;
+}
+.bars > div:nth-child(odd) {
+  margin-left: 0;
+}
+
+.progress-bar {
+    background: #D6CFCB;
+    border-radius: 99px;
+    width: 7em;
+    height: 0.8em;
+    position: relative;
+    overflow: hidden;
+    border: 1px #ecf0f1 solid;
+}
+.progress-bar::before {
+    border-radius: 99px;
+    position: absolute;
+    width: 7em;
+    height: 0.8em;
+    background: #A6808C;
+    content: "";
+    width: 0;
+    transition: width 0.2s;
+}
+
+.progress-bar-10::before {
+  width: 10%;
+}
+
+.progress-bar-20::before {
+  width: 20%;
+}
+
+.progress-bar-30::before {
+  width: 30%;
+}
+
+.progress-bar-40::before {
+  width: 40%;
+}
+
+.progress-bar-50::before {
+  width: 50%;
+}
+
+.progress-bar-60::before {
+  width: 60%;
+}
+
+.progress-bar-70::before {
+  width: 70%;
+}
+
+.progress-bar-80::before {
+  width: 80%;
+}
+
+.progress-bar-90::before {
+  width: 90%;
+}
+
+.progress-bar-100::before {
+  width: 100%;
+}
+
+
+
+
+
+
+
+:root{
+    --background-dark: #000;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+  
+  
+  .hero-section{
+    align-items: flex-start;
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    padding: var(--spacing-xxl) var(--spacing-l);
+  }
+  
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: var(--spacing-l);
+    max-width: var(--width-container);
+    width: 100%;
+  }
+  
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  .card{
+    list-style: none;
+    position: relative;
+  }
+  
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+  
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    trsnsform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
+  }
+  
+  .card:hover .card__background{
+    transform: scale(1.05) translateZ(0);
+  }
+  
+  .card-grid:hover > .card:not(:hover) .card__background{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  }
+  
+  .card__content{
+    left: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+  }
+  
+  .card__category{
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-s);
+    text-transform: uppercase;
+  }
+  
+  .card__heading{
+    color: var(--text-lighter);
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    word-spacing: 100vw;
+  }
+
+  /*other progress bars*/
+  #skill { 
+	list-style: none;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 80%;
+	position: relative;
+	line-height: 2em;
+	padding: 30px 0;
+    margin: auto;
+}
+
+#skill li { 
+	margin-bottom:50px; 
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	height:20px; 
+	border-radius:10px; 
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill li label { 
+	position:relative; 
+	top:-25px;
+    color:#000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bar { 
+	height:18px; 
+	margin:1px 2px;  
+	position:absolute;
+    left:0px;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.graphic-design {
+	width:80%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.html-css {
+	width:90%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.jquery {
+	width:65%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #a1ce5b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.wordpress {
+	width:80%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
