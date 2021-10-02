@@ -112,7 +112,7 @@ h6{
     border: 2px rgba(255, 255, 255, 0.16) solid;
 }
 #intro ul li a{
-    color:#A6808C;
+    color:#565264;
     display:block;
     padding: 15px;
 }
@@ -211,7 +211,7 @@ h6{
 #hardskills .col{
     width:24.5%;
     margin-top: 1em;
-    text-align: center;
+    text-align: right;
     vertical-align:top;
 }
 
@@ -274,11 +274,6 @@ body {
 .wrap {
   max-width: 600px;
   margin: 0 auto;
-}
-
-h1 {
-  font-weight: 300;
-  color: #1e9ef6;
 }
 
 .bars {
@@ -487,12 +482,17 @@ h1 {
 	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
 }
 
+#hardskills .col h3{
+    font-weight:bold;
+    color:#565264;
+    text-align: left;
+}
+
 #skill li label { 
 	position:relative; 
 	top:-25px;
-    color:#000;
-    font-weight: bold;
-    text-transform: uppercase;
+    color:#565264;
+    text-transform: capitalize;
 }
 
 .bar { 
